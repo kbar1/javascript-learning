@@ -19,4 +19,5 @@ cd javascript-learning
 
 
 ## Co dalej?
-Fork - klient Git. Płatny, ale niewymagane jest to jeszcze.
+Fork - klient Git. Płatny, ale niewymagane jest to jeszcze. 
+Próbuję zmienić nazwę commita w Forku
