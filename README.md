@@ -17,6 +17,9 @@ git clone https://github.com/kbar1/javascript-learning.git
 cd javascript-learning
 ```
 
+## Editor options
+- Extensions: Live Server - live reload page, Prettier - code formater, Material Icon Theme
+
 
 ## Fork 
 Fork - client Git. It's paid, but not requeired.

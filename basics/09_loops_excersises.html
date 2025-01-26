@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //początkowa wartość licznika -2
+        //licznik sprawdzamy czy jest mniejszy równy 2
+        //w każdej iteracji musimy sprawdzić za pomocą if i wyświetlić informację czy liczba jest dodania, ujemna, czy zero
+
+        let a = -2
+        while (a <= 2){
+            if (a > 0) {
+                console.log(`Liczba ${a} jest dodatnia`);
+            } 
+            else if (a == 0) {
+                console.log(`Liczba ${a} to zero`);
+            }
+            else if (a < 0) {
+                console.log(`Liczba ${a} jest ujemna`);
+            }
+            a++;
+        }
+
+        console.log("Pętla while zakończona")
+
+        for (b = -2; b <= 2; b++){
+            if (b > 0) {
+                console.log(`Liczba ${b} jest dodatnia`);
+            } 
+            else if (b == 0) {
+                console.log(`Liczba ${b} to zero`);
+            }
+            else if (b < 0) {
+                console.log(`Liczba ${b} jest ujemna`);
+            }
+        }
+
+        console.log("Pętla for zakończona")
+
+
+
+    </script>
+</body>
+</html>
