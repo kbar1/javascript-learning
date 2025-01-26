@@ -18,6 +18,8 @@ cd javascript-learning
 ```
 
 
-## Co dalej?
-Fork - klient Git. Płatny, ale niewymagane jest to jeszcze. 
-Próbuję zmienić nazwę commita w Forku
+## Fork 
+Fork - client Git. It's paid, but not requeired.
+- change code in VSC, then stage, commit and push from Fork
+
+## What's next?
