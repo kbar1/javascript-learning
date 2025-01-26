@@ -19,4 +19,4 @@ cd javascript-learning
 
 
 ## Co dalej?
-Fork
+Fork - klient Git. Płatny, ale niewymagane jest to jeszcze.
