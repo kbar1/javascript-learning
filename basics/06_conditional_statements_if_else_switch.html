@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let data = 5;
+
+        if (data > 5){
+            console.log("Liczba większa od 5");
+        }
+        else {
+            console.log("Liczba nie jest większa od 5");
+        }
+
+        
+        let age = 24;
+
+        if (age >= 18){
+            console.log("Możesz głosować w wyborach");
+        }
+        else {
+            console.log("Nie możesz głosować w wyborach");
+        }
+
+
+        let sportRanking = 5;
+        if (sportRanking == 1){
+            console.log("Złoto");
+        }
+        else if (sportRanking == 2){
+            console.log("Srebro");
+        }
+        else if (sportRanking == 3){
+            console.log("Brąz");
+        }
+        else {
+            console.log("Brak medalu");
+        }
+
+
+
+        const x = 10;
+        const y = 99;
+
+        if (x > y) {
+            console.log ("x jest większe od y")            
+        }
+        else {
+            console.log("x jest mniejsze od y");
+        }
+        
+        //switch działa tylko na jednej zmiennej i nie obsługuje skomplikowanych wyrażeń logicznych
+        let topSpeed = 310;
+
+        switch (topSpeed) {
+            case 100:
+                console.log("Mała prędkość maksymalna");
+                break;
+
+            case 150: 
+                console.log("Prędkość 150km/h");
+                break;
+
+            case 200:
+                console.log("Duża prędkośc maksymalna");
+                break;
+
+            case 310:
+            case 320:
+            case 330:
+                console.log("Lecisz ponad 300km/h");
+                break;
+
+            default:
+                console.log("Nie wiem jaka prędkość");
+              
+        }
+
+        console.log("Dalsza część programu");
+
+    </script>
+</body>
+</html>

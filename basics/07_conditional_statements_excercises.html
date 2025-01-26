@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // zmienna temperature co 10 od -10 do 40
+        //informacja ze względu na temperaturę czy jest : b. zimno, zimno 0, wiosna 10, lato 20, 30 gorąco, 40 bardzo gorąco
+        //1 wersja z if else if
+        let temperature = 51
+
+        if (temperature >= - 10 && temperature < 0) {
+            console.log("Jest bardzo zimno");
+        }
+        else if (temperature >= 0 && temperature < 10) {
+            console.log ("Jest zimno");
+        }
+        else if (temperature >= 10 && temperature < 20) {
+            console.log ("Jest wiosna");
+        }
+        else if (temperature >= 20 && temperature < 30) {
+            console.log ("Jest lato");
+        }
+        else if (temperature >= 30 && temperature < 40) {
+            console.log ("Jest gorąco");
+        }
+        else if (temperature >= 40 && temperature < 50) {
+            console.log ("Jest bardzo gorąco");
+        }
+        else {
+            console.log("Zostajemy w domu");
+        }
+
+        console.log("Lecimy dalej!")
+        //2 wersja switch
+        switch (temperature){
+            case -10:
+            case -9:
+                console.log("Jest bardzo zimno");
+                break;
+
+            case 0:
+                console.log("Jest zimno");
+                break;
+
+            case 10:
+                console.log("Jest wiosna");
+                break;
+
+            case 20:
+                console.log("Jest lato");
+                break;     
+                
+            case 30:
+                console.log("Jest gorąco");
+                break;    
+
+            case 40:
+                console.log("Jest b. gorąco");
+                break;    
+
+            default:
+                console.log("Zostajemy w domu")
+
+        }
+        
+
+
+
+
+
+
+    </script>
+</body>
+</html>
